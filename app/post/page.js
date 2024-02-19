@@ -16,6 +16,7 @@ async function getProjects() {
     return data[0].blogsection
 
   }
+  
   catch (err) {
     return 'err'
   }
