@@ -9,7 +9,7 @@ import BlogSection from "@/components/BlogSection"
 
 async function getProjects() {
   try {
-    const res = await fetch('https://thejus-portfolio-8wno-git-master-sirils-projects.vercel.app/api/data', { cache: 'no-store' })
+    const res = await fetch('https://thejus-joseph-git-master-sirils-projects-ef1c6847.vercel.app/api/data', { cache: 'no-store' })
     if (!res.ok) {
       throw new Error(`Failed to fetch projects: ${res.statusText}`);
     }
